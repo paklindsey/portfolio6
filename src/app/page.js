@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Greet } from "./components/greet";
+import { Counter } from "./components/counter";
 
 export default function Home() {
   return (
@@ -17,9 +19,10 @@ export default function Home() {
           <li>
             Get started by editing <code>src/app/page.js</code>.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Hello World!</li>
         </ol>
-
+        <Greet />
+        <Counter />
         <div className={styles.ctas}>
           <a
             className={styles.primary}
