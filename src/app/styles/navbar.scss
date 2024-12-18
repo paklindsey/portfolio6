@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  .navbarLink {
+    color: black;
+    text-decoration: none;
+    font-family: helveticaNowBold;
+    text-transform: uppercase;
+    &:hover {
+      color: red;
+    }
+  }
+}
