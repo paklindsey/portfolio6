@@ -3,22 +3,20 @@ import "../styles/navbar.scss";
 
 const Navbar = () => {
   return (
-    <div className="wrapper">
-      <nav className="navbar">
-        <Link href="/" className="navbarLink homeLink">
-          Home
-        </Link>
-        <Link href="/about" className="navbarLink aboutLink">
-          About
-        </Link>
-        <Link href="/work" className="navbarLink workLink">
-          Work
-        </Link>
-        <Link href="/contact" className="navbarLink contactLink">
-          Contact
-        </Link>
-      </nav>
-    </div>
+    <nav className="navbar">
+      <Link href="/" className="navbarLink homeLink">
+        Home
+      </Link>
+      <Link href="/about" className="navbarLink aboutLink">
+        About
+      </Link>
+      <Link href="/work" className="navbarLink workLink">
+        Work
+      </Link>
+      <Link href="/contact" className="navbarLink contactLink">
+        Contact
+      </Link>
+    </nav>
   );
 };
 
