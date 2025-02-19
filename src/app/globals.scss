@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+// --------------------------------------------------------variables
+// --------------------------------------------------------mixins
+
+
+
 // --------------------------------------------------------fonts
 @font-face {
   font-family: helveticaNowBold;
@@ -17,4 +22,25 @@ h1 {
   font-size: 96px;
   font-family: helveticaNowBold;
   text-transform: uppercase;
+  @media only screen and (min-width: 1400px) {
+    font-size: 200px;
+  }
+
+}
+
+h6{
+  font-size: 48px;
+  font-family: helveticaNowBold;
+text-transform: uppercase;
+@media only screen and (min-width: 1400px) {
+  font-size: 90px;
+}
+}
+
+p{
+  font-size: 16px;
+  font-family: helveticaNowBold;
+  @media only screen and (min-width: 1400px) {
+    font-size: 26px;
+  }
 }

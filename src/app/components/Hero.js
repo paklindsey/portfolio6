@@ -6,9 +6,12 @@ const Hero = () => {
     <div className="hero">
       <div className="hero__textBox">
         <div className="hero__textBox__left">
-          <h1>Hello</h1>
+        <img src="/images/Hello.png" className="helloPng"/>
         </div>
-        <div className="hero__textBox__right"></div>
+        <div className="hero__textBox__right">
+          <div><h6>im lindsey</h6></div>
+          <div><p>welcome to my little slice of life on the web</p></div>
+        </div>
       </div>
     </div>
   );
