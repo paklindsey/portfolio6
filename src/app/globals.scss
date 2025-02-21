@@ -7,8 +7,6 @@
 // --------------------------------------------------------variables
 // --------------------------------------------------------mixins
 
-
-
 // --------------------------------------------------------fonts
 @font-face {
   font-family: helveticaNowBold;
@@ -25,22 +23,21 @@ h1 {
   @media only screen and (min-width: 1400px) {
     font-size: 200px;
   }
-
 }
 
-h6{
+h6 {
   font-size: 48px;
   font-family: helveticaNowBold;
-text-transform: uppercase;
-@media only screen and (min-width: 1400px) {
-  font-size: 90px;
-}
+  text-transform: uppercase;
+  @media screen and (max-width: 800px) {
+    font-size: 36px;
+  }
 }
 
-p{
+p {
   font-size: 16px;
   font-family: helveticaNowBold;
-  @media only screen and (min-width: 1400px) {
-    font-size: 26px;
+  @media screen and (max-width) {
+    font-size: 14px;
   }
 }

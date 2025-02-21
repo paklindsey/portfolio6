@@ -4,15 +4,15 @@ import { motion } from "motion/react";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="hero__textBox">
-        <div className="hero__textBox__left">
+      <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:2}} className="hero__textBox">
+        <motion.div initial={{x: -300}} animate={{x:0}} transition={{duration: 1}}className="hero__textBox__left">
         <img src="/images/Hello.png" className="helloPng"/>
-        </div>
+        </motion.div>
         <div className="hero__textBox__right">
-          <div><h6>im lindsey</h6></div>
-          <div><p>welcome to my little slice of life on the web</p></div>
+          <motion.div initial={{y:-200}} animate={{y:0}} transition={{duration:1}}><h6>im lindsey</h6></motion.div>
+          <motion.div initial={{y:200}} animate={{y:0}} transition={{duration:1}}><p>welcome to my little slice of life on the web</p></motion.div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
