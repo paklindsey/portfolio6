@@ -36,6 +36,20 @@
       @media screen and (max-width: 800px) {
         align-items: flex-start;
       }
+      :nth-child(2) {
+        p {
+          text-transform: uppercase;
+          font-size: 30px;
+          text-align: right;
+          @media screen and (max-width: 1080px) {
+            font-size: 20px;
+          }
+          @media screen and (max-width: 800px) {
+            text-align: left;
+            font-size: 20px;
+          }
+        }
+      }
     }
   }
 }
@@ -79,7 +93,7 @@
       row-gap: 50vh;
       h6 {
         font-family: gilroyB;
-        color: #afdee9;
+        color: #fff;
         font-size: 64px;
         text-align: center;
         text-transform: uppercase;
